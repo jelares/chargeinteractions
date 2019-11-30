@@ -35,7 +35,7 @@ public class coulombforce : MonoBehaviour
         charge1.AddForce(fmag* unit);
         charge2.AddForce(-fmag* unit);
 
-        colormod = map(fmag, 0, 15, 0, 255);
+        colormod = map(Mathf.Abs(fmag), 0, 15, 0, 255);
 
         currentColor = new Color(0, 0, colormod);
         chargemat.SetColor("_Color", currentColor);

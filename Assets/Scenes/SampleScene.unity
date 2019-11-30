@@ -380,7 +380,7 @@ MonoBehaviour:
   chargemat: {fileID: 2100000, guid: 7b1a64da0e9373e43b0163a55914a5b3, type: 2}
   charge1: {fileID: 890957278}
   charge2: {fileID: 1110055270}
-  q1: 5
+  q1: 0
   q2: 5
   r: 0
   fmag: 0
